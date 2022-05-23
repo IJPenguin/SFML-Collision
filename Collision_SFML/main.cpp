@@ -24,7 +24,7 @@ Game::Game()
 	:win(sf::VideoMode(2560, 1440), "Main Window", sf::Style::Default)
 	,rec(sf::Vector2f(50, 50))
 	,recRun(sf::Vector2f(50,50)) {
-	win.setFramerateLimit(60);
+	win.setFramerateLimit(165);
 	recRun.setFillColor(sf::Color::Red);
 	recRun.setOrigin(recRun.getSize() * 0.5f);
 	recRun.setPosition(1230, 720);
@@ -38,7 +38,7 @@ Game::Game()
 }
 
 void Game::initRect() {
-
+	
 }
 
 void Game::run() {
