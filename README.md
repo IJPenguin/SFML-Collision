@@ -1,2 +1,2 @@
-# SFML-Projects
-This is all the stuff I make while I am learning SFML.
+# SFML-Collision  
+Collision of 2 bodies in SFML
